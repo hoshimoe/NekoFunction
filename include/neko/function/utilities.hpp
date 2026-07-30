@@ -1,10 +1,10 @@
 /**
  * @file utilities.hpp
  * @brief Utilities for time handling, base64 encoding/decoding, path handling, and string manipulation.
- * @author moehoshio
+ * @author hoshimoe
  * @copyright Copyright (c) 2025 Hoshi
  * @license MIT OR Apache-2.0
- * @link https://github.com/moehoshio/NekoFunction
+ * @link https://github.com/hoshimoe/NekoFunction
  *
  * This header provides a collection of utilities:
  * - Functional programming operators

@@ -1,7 +1,7 @@
 /**
  * @file NekoFunction_test.cpp
  * @brief Google Test suite for NekoFunction library
- * @author moehoshio
+ * @author hoshimoe
  */
 
 #include <gtest/gtest.h>

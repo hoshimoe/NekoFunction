@@ -8,8 +8,8 @@ class NekoFunctionConan(ConanFile):
     name = "neko-function"
     version = "1.0.11"
     license = "MIT OR Apache-2.0"
-    author = "moehoshio"
-    url = "https://github.com/moehoshio/NekoFunction"
+    author = "hoshimoe"
+    url = "https://github.com/hoshimoe/NekoFunction"
     description = "A comprehensive modern C++ utility library that provides practical functions for common programming tasks."
     topics = ("cpp", "utility", "modern-cpp", "functions", "neko", "archive", "string", "hash", "sha256" , "uuid" ,"datetime", "iso8601", "module")
     
