@@ -39,7 +39,7 @@ class NekoFunctionConan(ConanFile):
 
     def requirements(self):
         if self.options.enable_hash:
-            self.requires("openssl/[>=3.0]")
+            self.requires("openssl/[>=3.0 <4]")
         if self.options.enable_archive:
             self.requires("minizip-ng/[>=4.0]")
     
