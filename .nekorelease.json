@@ -1,6 +1,6 @@
 {
   "packageName": "neko-function",
-  "repositoryUrl": "https://github.com/moehoshio/NekoFunction",
+  "repositoryUrl": "https://github.com/hoshimoe/NekoFunction",
   "packageManagers": [
     "vcpkg",
     "Conan"

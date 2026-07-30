@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(NekoFunction VERSION 1.0.11 LANGUAGES CXX)
+project(NekoFunction VERSION 1.0.12 LANGUAGES CXX)
 
 # ================
 # === Config ====
@@ -74,7 +74,7 @@ if(NEKO_FUNCTION_AUTO_FETCH_DEPS)
         message(STATUS "NekoSchema not found; Neko Function Fetching NekoSchema...")
         FetchContent_Declare(
             NekoSchema
-            GIT_REPOSITORY https://github.com/moehoshio/NekoSchema.git
+            GIT_REPOSITORY https://github.com/hoshimoe/NekoSchema.git
             GIT_TAG        main
         )
         set(NEKO_SCHEMA_BUILD_TESTS OFF CACHE BOOL "" FORCE)

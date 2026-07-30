@@ -1,7 +1,7 @@
 /**
  * @file function_module_test.cpp
  * @brief Google Test suite for NekoFunction C++20 Module
- * @author moehoshio
+ * @author hoshimoe
  * @details Tests the NekoFunction library using C++20 module imports
  */
 
