@@ -1,8 +1,10 @@
 @PACKAGE_INIT@
 
 # Find required dependencies
+# Note: find_dependency() must not be given REQUIRED or QUIET; it forwards the
+# REQUIRED/QUIET-ness requested by the caller of find_package(NekoFunction).
 include(CMakeFindDependencyMacro)
-find_dependency(NekoSchema REQUIRED)
+find_dependency(NekoSchema)
 
 # Find optional dependencies based on enabled features
 # These are set during package configuration
@@ -10,11 +12,11 @@ set(NEKO_FUNCTION_HAS_HASH @NEKO_FUNCTION_ENABLE_HASH@)
 set(NEKO_FUNCTION_HAS_ARCHIVE @NEKO_FUNCTION_ENABLE_ARCHIVE@)
 
 if(NEKO_FUNCTION_HAS_HASH)
-    find_dependency(OpenSSL REQUIRED)
+    find_dependency(OpenSSL)
 endif()
 
 if(NEKO_FUNCTION_HAS_ARCHIVE)
-	find_dependency(minizip-ng REQUIRED)
+	find_dependency(minizip-ng)
 endif()
 
 # Include the targets file
