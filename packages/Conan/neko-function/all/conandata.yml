@@ -1,25 +1,4 @@
 ﻿sources:
-  "1.0.7":
-    url: "https://github.com/hoshimoe/NekoFunction/archive/refs/tags/v1.0.7.tar.gz"
-    sha256: "4665374e10b13eb1610abdbdcd22e4c3b5f25011b39b15868fe15ee47b2732f9"
-
-  "1.0.8":
-    url: "https://github.com/hoshimoe/NekoFunction/archive/refs/tags/v1.0.8.tar.gz"
-    sha256: "85189e769bbcf9b6af54843d8f15c6d6f5acdb4fb005af98e9b155e30c8a6b68"
-
-  "1.0.9":
-    url: "https://github.com/hoshimoe/NekoFunction/archive/refs/tags/v1.0.9.tar.gz"
-    sha256: "42ec693ba6955cd7dcf866d3f7b04b47a92faeb1bcba94510e917031b70a0bc2"
-
-  "1.0.10":
-    url: "https://github.com/hoshimoe/NekoFunction/archive/refs/tags/v1.0.10.tar.gz"
-    sha256: "0584f8c78084ad9a91e6b2ddafcc4c9b91a474b5bb9e69cc32dba8b9e1fdabb9"
-
-  "1.0.11":
-    url: "https://github.com/hoshimoe/NekoFunction/archive/refs/tags/v1.0.11.tar.gz"
-    sha256: "4f80d5087bec4b2abd6233b55ca763dfb8e421402e08464b3d9a0cd928947c0d"
-
   "1.0.12":
     url: "https://github.com/hoshimoe/NekoFunction/archive/refs/tags/v1.0.12.tar.gz"
-    # TODO(release): replace with the real sha256 of the v1.0.12 tarball
-    sha256: "REPLACE_AFTER_TAGGING"
+    sha256: "7e2fccac424a7a43165d587f1ecdb097750f8f5a78f7649bb7ba8e4cd6637983"

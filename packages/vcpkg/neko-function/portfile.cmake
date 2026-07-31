@@ -2,8 +2,7 @@
     OUT_SOURCE_PATH SOURCE_PATH
     REPO hoshimoe/NekoFunction
     REF v1.0.12
-    # TODO(release): replace with the real SHA512 of the v1.0.12 tarball
-    SHA512 0
+    SHA512 777347e62acc5c6baf6996565b849190713a13b65fbd69e8d17af7d2f98d7cd0abc8e1866684439de53ed49d1a8c3b98058c60d2ffac4a7540a5ef09e8b4e6ec
     HEAD_REF main
 )
 
@@ -44,4 +43,3 @@ endif()
 vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 
 file(INSTALL "${CMAKE_CURRENT_LIST_DIR}/usage" DESTINATION "${CURRENT_PACKAGES_DIR}/share/${PORT}")
-
